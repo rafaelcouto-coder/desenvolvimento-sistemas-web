@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.eventos {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 150px;
+}
+
+.eventos img{
+    width: 350px;
+}
+
+.eventos div{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.residencia img, .maratona img{
+    width: 250px;
+}
+.desafios h1 {
+    text-align: center;
+}

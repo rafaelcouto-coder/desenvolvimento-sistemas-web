@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CURSOS - IFSP - Pirituba - DWBA4</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" />
+    <link href="css/menu.css" rel="stylesheet" type="text/css" />
+    <link href="css/contato.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+
+    <header class="cabecalho">
+
+      <div id="menuhorizontal">
+
+        <ul>
+          <li><a href="index.html" target="_top">HOME</a></li>
+          <li><a href="eventos.html" target="_top">EVENTOS</a></li>
+          <li><a href="contato.html" target="_top">CONTATO</a></li>
+
+          <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">CURSOS</a>
+            <div class="dropdown-content">
+              <a href="#" target="_top">Análise e Desenvolvimento de Sistemas</a>
+              <a href="#" target="_top">Engenharia de Produção</a>
+            </div>
+          </li>
+
+          <li><a href="entrar.html" target="_top">ENTRAR</a></li>
+          <li id='about'><a href="sobre.html" target="_top">SOBRE</a></li>
+
+        </ul>
+
+        <img src="imagens/Logo.jpg" alt="Logo IFSP">
+
+      </div>
+
+    </header>
+
+    <form action="">
+
+      <h1>Mande uma mensagem</h1>
+
+      <ul>
+
+        <li class="form-column">
+          <label for="name" class="label-column">Nome</label>
+          <input type="text" id="name" name="name" required />
+        </li>
+
+        <li class="form-column">
+          <label for="email" class="label-column">E-Mail</label>
+          <input type="mail" id="email" name="email" required />
+        </li>
+
+        <li class="form-column">
+          <label for="tel" class="label-column">Telefone </label>
+          <input type="tel" id="tel" name="tel" placeholder="(99) 99999-9999" required />
+        </li>
+
+        <li class="form-column">
+          <label for="assunto" class="label-column">Assunto</label>
+          <select name="assunto" id="assunto" required>
+            <option value="Selecione">-- Selecione --</option>
+            <option value="Voe sem assas">Reclamação</option>
+            <option value="Festa junina">Sugestão</option>
+          </select>
+        </li>
+
+        <li class="form-column">
+          <label for="box-txt" class="label-column">Mensagem</label>
+          <textarea name="box-txt" id="box-txt" cols="20" rows="3" required
+          ></textarea>
+        </li>
+
+        <li class="label-column">
+          <fieldset>
+            <legend>Opções de resposta</legend>
+            <label for="email2">E-Mail</label>
+            <input type="checkbox" id="email2" name="email2" />
+            <label for="tel2">Telefone</label>
+            <input type="checkbox" id="tel2" name="tel2" />
+          </fieldset>
+        </li>
+
+        <li>
+          <input class="button" type="submit" id="submit" name="submit" value="Enviar" />
+        </li>
+
+      </ul>
+
+    </form>
+
+    <footer>
+
+      <a href="https://www.facebook.com/ifsppirituba" ><img src="imagens/facebook.png" alt="Facebook IFSP" width="40px" /></a>
+      <p>
+        IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP:
+        05110-000 - São Paulo/SP - Contato: (011) 2504-0100
+      </p>
+
+    </footer>
+
+  </body>
+
+</html>
